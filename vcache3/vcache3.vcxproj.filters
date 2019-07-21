@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{64904974-674f-46ab-aeb7-e6cc8169ac48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="service">
+      <UniqueIdentifier>{928b754e-a0eb-44f5-9512-47943b462a14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="manage">
+      <UniqueIdentifier>{82769d80-afc5-412a-a955-0d257a120e23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="log">
+      <UniqueIdentifier>{661ee9a7-e9bf-40e8-809e-452a3557534c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="demo">
+      <UniqueIdentifier>{d742c5f4-314a-4aa0-af81-3844fa679a67}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="vservice.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="vcontent.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="vspace.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="vlog.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="vdefine.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="vspace.cpp">
+      <Filter>manage</Filter>
+    </ClCompile>
+    <ClCompile Include="vcontent.cpp">
+      <Filter>manage</Filter>
+    </ClCompile>
+    <ClCompile Include="vservice.cpp">
+      <Filter>service</Filter>
+    </ClCompile>
+    <ClCompile Include="vlog.cpp">
+      <Filter>log</Filter>
+    </ClCompile>
+    <ClCompile Include="demo.cpp">
+      <Filter>demo</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,170 @@
+﻿  Validating sources
+  Copying sources remotely to '192.168.81.128'
+  Validating architecture
+  Starting remote build
+  Compiling sources:
+  demo.cpp
+D:\VSproject\vcache3\vcache3\demo.cpp(69,16): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+D:\VSproject\vcache3\vcache3\demo.cpp(69,16): warning :   int rd = vread(fd, buf, nbytes);
+D:\VSproject\vcache3\vcache3\demo.cpp(69,16): warning :            ~~~~~^~~~~~~~~~~~~~~~~
+D:\VSproject\vcache3\vcache3\demo.cpp(74,17): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+D:\VSproject\vcache3\vcache3\demo.cpp(74,17): warning :   int rd = vwrite(fd, buf, nbytes);
+D:\VSproject\vcache3\vcache3\demo.cpp(74,17): warning :            ~~~~~~^~~~~~~~~~~~~~~~~
+D:\VSproject\vcache3\vcache3\demo.cpp(115,6): warning : unused variable ‘fin’ [-Wunused-variable]
+D:\VSproject\vcache3\vcache3\demo.cpp(115,6): warning :   int fin = 0;
+D:\VSproject\vcache3\vcache3\demo.cpp(115,6): warning :       ^~~
+  vcontent.cpp
+D:\VSproject\vcache3\vcache3\vcontent.cpp(149,6): warning : unused variable ‘flag’ [-Wunused-variable]
+D:\VSproject\vcache3\vcache3\vcontent.cpp(149,6): warning :   int flag = 0; /*used to mark whether the buffer exist or not*/
+D:\VSproject\vcache3\vcache3\vcontent.cpp(149,6): warning :       ^~~~
+D:\VSproject\vcache3\vcache3\vcontent.cpp(357,14): warning : conversion to ‘int’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\VSproject\vcache3\vcache3\vcontent.cpp(357,14): warning :   int count = nbytes;  /*record buff size when search in index address*/
+D:\VSproject\vcache3\vcache3\vcontent.cpp(357,14): warning :               ^~~~~~
+D:\VSproject\vcache3\vcache3\vcontent.cpp(399,20): warning : conversion to ‘int’ from ‘off_t {aka long int}’ may alter its value [-Wconversion]
+D:\VSproject\vcache3\vcache3\vcontent.cpp(399,20): warning :       count = count - (tmpentry->offset + tmpentry->size - pos);
+D:\VSproject\vcache3\vcache3\vcontent.cpp(399,20): warning :               ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\VSproject\vcache3\vcache3\vcontent.cpp(410,20): warning : conversion to ‘int’ from ‘off_t {aka long int}’ may alter its value [-Wconversion]
+D:\VSproject\vcache3\vcache3\vcontent.cpp(410,20): warning :       count = count - (pos + count - tmpentry->offset);
+D:\VSproject\vcache3\vcache3\vcontent.cpp(410,20): warning :               ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\VSproject\vcache3\vcache3\vcontent.cpp(466,21): warning : conversion to ‘int’ from ‘off_t {aka long int}’ may alter its value [-Wconversion]
+D:\VSproject\vcache3\vcache3\vcontent.cpp(466,21): warning :        count = count - (tmpentry->offset + tmpentry->size - pos);
+D:\VSproject\vcache3\vcache3\vcontent.cpp(466,21): warning :                ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\VSproject\vcache3\vcache3\vcontent.cpp(477,21): warning : conversion to ‘int’ from ‘off_t {aka long int}’ may alter its value [-Wconversion]
+D:\VSproject\vcache3\vcache3\vcontent.cpp(477,21): warning :        count = count - (pos + count - tmpentry->offset);
+D:\VSproject\vcache3\vcache3\vcontent.cpp(477,21): warning :                ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\VSproject\vcache3\vcache3\vcontent.cpp(638,21): warning : conversion to ‘int’ from ‘off_t {aka long int}’ may alter its value [-Wconversion]
+D:\VSproject\vcache3\vcache3\vcontent.cpp(638,21): warning :        count = count - (tmpentry->offset + tmpentry->size - pos);
+D:\VSproject\vcache3\vcache3\vcontent.cpp(638,21): warning :                ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\VSproject\vcache3\vcache3\vcontent.cpp(694,21): warning : conversion to ‘int’ from ‘off_t {aka long int}’ may alter its value [-Wconversion]
+D:\VSproject\vcache3\vcache3\vcontent.cpp(694,21): warning :        count = count - (pos + count - tmpentry->offset);
+D:\VSproject\vcache3\vcache3\vcontent.cpp(694,21): warning :                ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\VSproject\vcache3\vcache3\vcontent.cpp(725,12): warning : conversion to ‘int’ from ‘off_t {aka long int}’ may alter its value [-Wconversion]
+D:\VSproject\vcache3\vcache3\vcontent.cpp(725,12): warning :   int pos = curpos;
+D:\VSproject\vcache3\vcache3\vcontent.cpp(725,12): warning :             ^~~~~~
+D:\VSproject\vcache3\vcache3\vcontent.cpp(726,14): warning : conversion to ‘int’ from ‘off_t {aka long int}’ may alter its value [-Wconversion]
+D:\VSproject\vcache3\vcache3\vcontent.cpp(726,14): warning :   int tmpos = curpos;
+D:\VSproject\vcache3\vcache3\vcontent.cpp(726,14): warning :               ^~~~~~
+D:\VSproject\vcache3\vcache3\vcontent.cpp(727,14): warning : conversion to ‘int’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\VSproject\vcache3\vcache3\vcontent.cpp(727,14): warning :   int count = nbytes;
+D:\VSproject\vcache3\vcache3\vcontent.cpp(727,14): warning :               ^~~~~~
+D:\VSproject\vcache3\vcache3\vcontent.cpp(728,17): warning : conversion to ‘int’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\VSproject\vcache3\vcache3\vcontent.cpp(728,17): warning :   int tmpcount = nbytes;
+D:\VSproject\vcache3\vcache3\vcontent.cpp(728,17): warning :                  ^~~~~~
+D:\VSproject\vcache3\vcache3\vcontent.cpp(748,21): warning : conversion to ‘int’ from ‘off_t {aka long int}’ may alter its value [-Wconversion]
+D:\VSproject\vcache3\vcache3\vcontent.cpp(748,21): warning :    tmpos = tmpentry->offset;
+D:\VSproject\vcache3\vcache3\vcontent.cpp(748,21): warning :            ~~~~~~~~~~^~~~~~
+D:\VSproject\vcache3\vcache3\vcontent.cpp(749,24): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+D:\VSproject\vcache3\vcache3\vcontent.cpp(749,24): warning :    tmpcount = tmpentry->size;
+D:\VSproject\vcache3\vcache3\vcontent.cpp(749,24): warning :               ~~~~~~~~~~^~~~
+D:\VSproject\vcache3\vcache3\vcontent.cpp(755,15): warning : pointer of type ‘void *’ used in arithmetic [-Wpointer-arith]
+D:\VSproject\vcache3\vcache3\vcontent.cpp(755,15): warning :     memcpy(buf + (tmpos - pos), tmpentry->buffer_addr, ccount);
+D:\VSproject\vcache3\vcache3\vcontent.cpp(755,15): warning :            ~~~~^~~~~~~~~~~~~~~
+D:\VSproject\vcache3\vcache3\vcontent.cpp(823,15): warning : pointer of type ‘void *’ used in arithmetic [-Wpointer-arith]
+D:\VSproject\vcache3\vcache3\vcontent.cpp(823,15): warning :     memcpy(buf + (pos - curpos), tmpbuff, rd);
+D:\VSproject\vcache3\vcache3\vcontent.cpp(823,15): warning :            ~~~~^~~~~~~~~~~~~~~~
+D:\VSproject\vcache3\vcache3\vcontent.cpp(824,10): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+D:\VSproject\vcache3\vcache3\vcontent.cpp(824,10): warning :     count -= rd;
+D:\VSproject\vcache3\vcache3\vcontent.cpp(824,10): warning :     ~~~~~~^~~~~
+D:\VSproject\vcache3\vcache3\vcontent.cpp(851,12): warning : conversion to ‘int’ from ‘off_t {aka long int}’ may alter its value [-Wconversion]
+D:\VSproject\vcache3\vcache3\vcontent.cpp(851,12): warning :   int pos = curpos;
+D:\VSproject\vcache3\vcache3\vcontent.cpp(851,12): warning :             ^~~~~~
+D:\VSproject\vcache3\vcache3\vcontent.cpp(852,14): warning : conversion to ‘int’ from ‘off_t {aka long int}’ may alter its value [-Wconversion]
+D:\VSproject\vcache3\vcache3\vcontent.cpp(852,14): warning :   int tmpos = curpos;
+D:\VSproject\vcache3\vcache3\vcontent.cpp(852,14): warning :               ^~~~~~
+D:\VSproject\vcache3\vcache3\vcontent.cpp(853,14): warning : conversion to ‘int’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\VSproject\vcache3\vcache3\vcontent.cpp(853,14): warning :   int count = nbytes;
+D:\VSproject\vcache3\vcache3\vcontent.cpp(853,14): warning :               ^~~~~~
+D:\VSproject\vcache3\vcache3\vcontent.cpp(854,17): warning : conversion to ‘int’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\VSproject\vcache3\vcache3\vcontent.cpp(854,17): warning :   int tmpcount = nbytes;
+D:\VSproject\vcache3\vcache3\vcontent.cpp(854,17): warning :                  ^~~~~~
+D:\VSproject\vcache3\vcache3\vcontent.cpp(877,21): warning : conversion to ‘int’ from ‘off_t {aka long int}’ may alter its value [-Wconversion]
+D:\VSproject\vcache3\vcache3\vcontent.cpp(877,21): warning :    tmpos = tmpentry->offset;
+D:\VSproject\vcache3\vcache3\vcontent.cpp(877,21): warning :            ~~~~~~~~~~^~~~~~
+D:\VSproject\vcache3\vcache3\vcontent.cpp(878,24): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+D:\VSproject\vcache3\vcache3\vcontent.cpp(878,24): warning :    tmpcount = tmpentry->size;
+D:\VSproject\vcache3\vcache3\vcontent.cpp(878,24): warning :               ~~~~~~~~~~^~~~
+D:\VSproject\vcache3\vcache3\vcontent.cpp(885,38): warning : pointer of type ‘void *’ used in arithmetic [-Wpointer-arith]
+D:\VSproject\vcache3\vcache3\vcontent.cpp(885,38): warning :     memcpy(tmpentry->buffer_addr, buf + (tmpos - pos), ccount);
+D:\VSproject\vcache3\vcache3\vcontent.cpp(885,38): warning :                                   ~~~~^~~~~~~~~~~~~~~
+D:\VSproject\vcache3\vcache3\vcontent.cpp(857,14): warning : unused variable ‘statbuf’ [-Wunused-variable]
+D:\VSproject\vcache3\vcache3\vcontent.cpp(857,14): warning :   struct stat statbuf;
+D:\VSproject\vcache3\vcache3\vcontent.cpp(857,14): warning :               ^~~~~~~
+D:\VSproject\vcache3\vcache3\vcontent.cpp(858,18): warning : unused variable ‘times’ [-Wunused-variable]
+D:\VSproject\vcache3\vcache3\vcontent.cpp(858,18): warning :   struct timespec times[2];
+D:\VSproject\vcache3\vcache3\vcontent.cpp(858,18): warning :                   ^~~~~
+D:\VSproject\vcache3\vcache3\vcontent.cpp(1050,19): warning : conversion to ‘short unsigned int’ from ‘int’ may alter its value [-Wconversion]
+D:\VSproject\vcache3\vcache3\vcontent.cpp(1050,19): warning :    tmpentry->r_cnt -= tmpindex->read;
+D:\VSproject\vcache3\vcache3\vcontent.cpp(1050,19): warning :    ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+D:\VSproject\vcache3\vcache3\vcontent.cpp(1051,19): warning : conversion to ‘short unsigned int’ from ‘int’ may alter its value [-Wconversion]
+D:\VSproject\vcache3\vcache3\vcontent.cpp(1051,19): warning :    tmpentry->w_cnt -= tmpindex->write;
+D:\VSproject\vcache3\vcache3\vcontent.cpp(1051,19): warning :    ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+  vlog.cpp
+D:\VSproject\vcache3\vcache3\vlog.cpp(37,66): warning : conversion to ‘short unsigned int’ from ‘long int’ may alter its value [-Wconversion]
+D:\VSproject\vcache3\vcache3\vlog.cpp(37,66): warning :    tmplog->entry_num = (entry - (struct cache_entry*)Entry_Start) / entry_size;
+D:\VSproject\vcache3\vcache3\vlog.cpp(37,66): warning :                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+D:\VSproject\vcache3\vcache3\vlog.cpp(115,61): warning : conversion to ‘int’ from ‘long int’ may alter its value [-Wconversion]
+D:\VSproject\vcache3\vcache3\vlog.cpp(115,61): warning :   int entry_num = (entry - (struct cache_entry*)Entry_Start) / entry_size;
+D:\VSproject\vcache3\vcache3\vlog.cpp(115,61): warning :                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+D:\VSproject\vcache3\vcache3\vlog.cpp(128,49): warning : conversion to ‘int’ from ‘long int’ may alter its value [-Wconversion]
+D:\VSproject\vcache3\vcache3\vlog.cpp(128,49): warning :     found = (log - (struct cache_log*)Log_Start) / log_size;
+D:\VSproject\vcache3\vcache3\vlog.cpp(128,49): warning :             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+  vservice.cpp
+D:\VSproject\vcache3\vcache3\vservice.cpp(115,29): warning : argument to ‘sizeof’ in ‘void* memset(void*, int, size_t)’ call is the same expression as the destination; did you mean to dereference it? [-Wsizeof-pointer-memaccess]
+D:\VSproject\vcache3\vcache3\vservice.cpp(115,29): warning :    memset(ioele, '\0', sizeof(ioele));
+D:\VSproject\vcache3\vcache3\vservice.cpp(115,29): warning :                              ^
+D:\VSproject\vcache3\vcache3\vservice.cpp(414,26): warning : argument to ‘sizeof’ in ‘void* memset(void*, int, size_t)’ call is the same expression as the destination; did you mean to dereference it? [-Wsizeof-pointer-memaccess]
+D:\VSproject\vcache3\vcache3\vservice.cpp(414,26): warning :   memset(buf, '\0', sizeof(buf));
+D:\VSproject\vcache3\vcache3\vservice.cpp(414,26): warning :                           ^
+D:\VSproject\vcache3\vcache3\vservice.cpp(416,22): warning : unused variable ‘tmpentry’ [-Wunused-variable]
+D:\VSproject\vcache3\vcache3\vservice.cpp(416,22): warning :   struct cache_entry *tmpentry = 0x0;
+D:\VSproject\vcache3\vcache3\vservice.cpp(416,22): warning :                       ^~~~~~~~
+D:\VSproject\vcache3\vcache3\vservice.cpp(548,22): warning : unused variable ‘tmpentry’ [-Wunused-variable]
+D:\VSproject\vcache3\vcache3\vservice.cpp(548,22): warning :   struct cahce_entry *tmpentry = 0x0;
+D:\VSproject\vcache3\vcache3\vservice.cpp(548,22): warning :                       ^~~~~~~~
+D:\VSproject\vcache3\vcache3\vservice.cpp(636,22): warning : unused variable ‘tmpentry’ [-Wunused-variable]
+D:\VSproject\vcache3\vcache3\vservice.cpp(636,22): warning :   struct cache_entry *tmpentry = 0x0;
+D:\VSproject\vcache3\vcache3\vservice.cpp(636,22): warning :                       ^~~~~~~~
+D:\VSproject\vcache3\vcache3\vservice.cpp(304,1): warning : control reaches end of non-void function [-Wreturn-type]
+D:\VSproject\vcache3\vcache3\vservice.cpp(304,1): warning :  }
+D:\VSproject\vcache3\vcache3\vservice.cpp(304,1): warning :  ^
+  vspace.cpp
+D:\VSproject\vcache3\vcache3\vspace.cpp(15,28): warning : ‘cbit_map’ initialized and declared ‘extern’
+D:\VSproject\vcache3\vcache3\vspace.cpp(15,28): warning :  extern int cbit_map[BIT_MAP] = { 0 };
+D:\VSproject\vcache3\vcache3\vspace.cpp(15,28): warning :                             ^
+D:\VSproject\vcache3\vcache3\vspace.cpp(38,20): warning : ‘Entry_Start’ initialized and declared ‘extern’
+D:\VSproject\vcache3\vcache3\vspace.cpp(38,20): warning :  extern const char* Entry_Start = nvm + INDEX_NUM * index_size;
+D:\VSproject\vcache3\vcache3\vspace.cpp(38,20): warning :                     ^~~~~~~~~~~
+D:\VSproject\vcache3\vcache3\vspace.cpp(40,20): warning : ‘Log_Start’ initialized and declared ‘extern’
+D:\VSproject\vcache3\vcache3\vspace.cpp(40,20): warning :  extern const char* Log_Start = nvm + (Total - LOG_NUM * log_size);
+D:\VSproject\vcache3\vcache3\vspace.cpp(40,20): warning :                     ^~~~~~~~~
+D:\VSproject\vcache3\vcache3\vspace.cpp(174,13): warning : unused variable ‘j’ [-Wunused-variable]
+D:\VSproject\vcache3\vcache3\vspace.cpp(174,13): warning :   int i = 1, j = 0;
+D:\VSproject\vcache3\vcache3\vspace.cpp(174,13): warning :              ^
+D:\VSproject\vcache3\vcache3\vspace.cpp(208,55): warning : conversion to ‘int’ from ‘long int’ may alter its value [-Wconversion]
+D:\VSproject\vcache3\vcache3\vspace.cpp(208,55): warning :   int num = (block - (struct cache_block*)Block_Start) / cblock_size;
+D:\VSproject\vcache3\vcache3\vspace.cpp(208,55): warning :             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~
+D:\VSproject\vcache3\vcache3\vspace.cpp(290,20): warning : conversion to ‘short unsigned int’ from ‘int’ may alter its value [-Wconversion]
+D:\VSproject\vcache3\vcache3\vspace.cpp(290,20): warning :       entry[m]->a = max_a;
+D:\VSproject\vcache3\vcache3\vspace.cpp(290,20): warning :                     ^~~~~
+D:\VSproject\vcache3\vcache3\vspace.cpp(291,20): warning : conversion to ‘short unsigned int’ from ‘int’ may alter its value [-Wconversion]
+D:\VSproject\vcache3\vcache3\vspace.cpp(291,20): warning :       entry[m]->m = max_m;
+D:\VSproject\vcache3\vcache3\vspace.cpp(291,20): warning :                     ^~~~~
+D:\VSproject\vcache3\vcache3\vspace.cpp(302,19): warning : conversion to ‘short unsigned int’ from ‘int’ may alter its value [-Wconversion]
+D:\VSproject\vcache3\vcache3\vspace.cpp(302,19): warning :      tmpentry->a = max_a;
+D:\VSproject\vcache3\vcache3\vspace.cpp(302,19): warning :                    ^~~~~
+D:\VSproject\vcache3\vcache3\vspace.cpp(303,19): warning : conversion to ‘short unsigned int’ from ‘int’ may alter its value [-Wconversion]
+D:\VSproject\vcache3\vcache3\vspace.cpp(303,19): warning :      tmpentry->m = max_m;
+D:\VSproject\vcache3\vcache3\vspace.cpp(303,19): warning :                    ^~~~~
+D:\VSproject\vcache3\vcache3\vspace.cpp(109,1): warning : control reaches end of non-void function [-Wreturn-type]
+D:\VSproject\vcache3\vcache3\vspace.cpp(109,1): warning :  }
+D:\VSproject\vcache3\vcache3\vspace.cpp(109,1): warning :  ^
+D:\VSproject\vcache3\vcache3\vspace.cpp(170,1): warning : control reaches end of non-void function [-Wreturn-type]
+D:\VSproject\vcache3\vcache3\vspace.cpp(170,1): warning :  }
+D:\VSproject\vcache3\vcache3\vspace.cpp(170,1): warning :  ^
+D:\VSproject\vcache3\vcache3\vspace.cpp(344,1): warning : control reaches end of non-void function [-Wreturn-type]
+D:\VSproject\vcache3\vcache3\vspace.cpp(344,1): warning :  }
+D:\VSproject\vcache3\vcache3\vspace.cpp(344,1): warning :  ^
+  Linking objects
+D:\VSproject\vcache3\vcache3\obj\x64\Debug\demo.o : error : In function `rwdemo()':
+D:\VSproject\vcache3\vcache3\demo.cpp(128): warning : the `gets' function is dangerous and should not be used.
+  vcache3.vcxproj -> D:\VSproject\vcache3\vcache3\bin\x64\Debug\vcache3.out
